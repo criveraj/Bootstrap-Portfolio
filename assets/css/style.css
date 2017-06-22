@@ -1,0 +1,126 @@
+
+body {
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 25px;
+	}
+.navbar h1 {
+  background: #4aaaa5;
+  bottom: 0px;
+  width: 95%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #fff;
+  
+}
+
+#links {
+	padding-top: 30px;
+}
+.social {
+	width: 50px;
+	height: 50px;
+	/*margin-top: 5px;
+	margin-bottom:3px;
+	margin-right: 5px;*/
+}
+.pictures {
+	width: auto;
+	height: 250px;
+
+}
+
+h1,h2,h3 {
+	font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+footer {
+	clear: both;
+	background: #666666;
+	color: #ffffff;
+	padding: 15px 0;
+	float: bottom;
+	border-top: 5px;
+	color: #cccccc;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+.portpics {
+  width: 100%;
+  height:200px;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+
+.col-sm-3 h3 {
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+.btn {
+	background: #666666;
+	color: #FDFEFE;
+}
+
+@media screen and (max-width:980px)
+ {
+	.container {
+	max-width:650px;
+	font-size: 18px;
+	color: #777777;
+	background-color: #FCF3CF;
+	}
+
+@media screen and (max-width:768px)
+ {
+	.container {
+	max-width:650px;
+	font-size: 18px;
+	color: #F7F9F9;
+	background-color: #EB984E;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	
+}
+
+@media screen and (max-width:640px)
+ {
+	.container {
+	max-width:400px;
+	font-size: 14px;
+	color: #F7F9F9;
+	background-color: #4aaaa5;
+	}
+	h1{
+		color:#F7F9F9; 
+	}
+	h2 {
+		font-size: 14px;
+	}
+
+	h3 {
+		font-size: 12px;
+	}
+}
+
